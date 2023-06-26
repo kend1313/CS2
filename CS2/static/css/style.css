@@ -1,0 +1,21 @@
+body{
+    font-family:"Comic Sans MS";
+}
+header{
+    background-color:rgb(225, 205, 236);
+}
+header h1{
+    color:black;
+}
+
+/**********/
+/**      **/
+/**GLOBAL**/
+/***    ***/
+/**********/
+body{
+    color: rgb(151, 254, 151);
+}
+h1{
+    color:rgb(153, 220, 239);
+}
