@@ -36,6 +36,7 @@ def pizza(id):
 #topping = cur.fetchall()
   return render_template('Skin.html',all_skins = all_skins,base = base)
 
+
 if __name__ == "__main__":
     app.run(debug = True)
 
