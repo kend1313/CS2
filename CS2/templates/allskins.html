@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 {% extends "layout.html"%}
 {%block content %}
 {% for item in results %}
 <a href="/skin/{{item[0]}}">
 {{item[1]}}
 </a>
-</h2>-{{item[2]}}</p>
+<p>-{{item[2]}}</p>
 
 {% endfor %}
 
