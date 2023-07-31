@@ -43,10 +43,12 @@ nav  a {
 }
 
 main {
-    height: 450px;
+    height: 500px;
     text-align: center;
     /* set the texts into the center of page. */
-    padding-top: 80px;
+
+    /* padding-top: 15px; */
+
     /* 增加文本与上方距离 */
     /* margin-top: 80px; */
     /* 格子拉开距离 （上下可同时使用）*/
@@ -76,7 +78,7 @@ h1 {
 }
 
 p {
-    font-size: 25px;
+    font-size: 30px;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: -30px;
@@ -84,7 +86,7 @@ p {
 
 a {
     color: black;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* text-decoration: none; (no underline)*/
 }
