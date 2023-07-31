@@ -59,17 +59,24 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -30px;
 }
 
-a {
+.a1 {
     color: black;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     /* text-decoration: none; (no underline)*/
 }
+
+/* .a2 {
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
 
 nav  a {
     text-decoration: none;
