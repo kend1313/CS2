@@ -6,13 +6,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-  return render_template("home.html")
+  return render_template("homepage.html")
 
 @app.route("/contact")
 def contact():
   return render_template("contact.html")
 
-@app.route ("/all_skins")
+@app.route ("/All_skins")
 
 def all_skins():
   conn=sqlite3.connect("CS2.db")
