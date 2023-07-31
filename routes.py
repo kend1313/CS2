@@ -14,7 +14,7 @@ def contact():
 
 @app.route ("/All_skins")
 
-def all_skins():
+def All_skins():
   conn=sqlite3.connect("CS2.db")
   cur=conn.cursor()
   cur.execute('SELECT * FROM skins')
@@ -29,14 +29,12 @@ def pizza(id):
 #pizza
   cur.execute('SELECT * FROM Skins WHERE id=?',(id,))
   pizza = cur.fetchone()
-# base
+# baseSS
   cur.execute('SELECT * FROM Base WHERE id=?',(id,))
   base = cur.fetchone()
 # cur.execute("SELECT toppingname FROM Topping WHERE id = (SELECT tid FROM Pizzatopping WHERE pid= ?)",(id,))
 #topping = cur.fetchall()
-  return render_template('Skin.html',all_skins = all_skins,base = base)
-
+  return render_template('Skin.html',all_skins = All_skins,base = base)
 
 if __name__ == "__main__":
     app.run(debug = True)
-
