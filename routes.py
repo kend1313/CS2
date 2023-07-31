@@ -3,7 +3,6 @@ import sqlite3
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def home():
   return render_template("homepage.html")
@@ -23,10 +22,14 @@ def All_skins():
   return render_template("allskins.html",results = results)
 
 @app.route('/skins/<int:id>')
-def pizza(id):
+def skin(id):
   conn = sqlite3.connect('CS2.db')
   cur = conn.cursor()
-#pizza
+#skin
+def case(id):
+  conn= sqlite3.connect('CS2.db')
+  cur = conn.cursor()
+  
   cur.execute('SELECT * FROM Skins WHERE id=?',(id,))
   pizza = cur.fetchone()
 # baseSS
@@ -34,7 +37,7 @@ def pizza(id):
   base = cur.fetchone()
 # cur.execute("SELECT toppingname FROM Topping WHERE id = (SELECT tid FROM Pizzatopping WHERE pid= ?)",(id,))
 #topping = cur.fetchall()
-  return render_template('Skin.html',all_skins = All_skins,base = base)
+  return render_template('allskins.html',All_skins, base=base)
 
 if __name__ == "__main__":
     app.run(debug = True)
