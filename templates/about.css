@@ -1,0 +1,93 @@
+body {
+    background-color: grey;
+    background-image: url(awps.jpg);
+    /* background photo */
+    background-size: cover;
+    /* to move with picture */
+    background-repeat: no-repeat;
+    /* to stop background photo repeating. */
+    background-position: center;
+}
+/* changes page background color */
+
+.container { 
+    margin-left:auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    /* background-color: blue; */
+    /* 可切换是否要有格子highlight */
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    height:40px ;
+    /* background-color: #2f3035; */
+    background-color: rgba(0,0,0,0.338);
+    height: 40px;
+    text-align: center;
+    /* to keep links in center */
+    text-decoration: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav  a {
+    text-decoration: none;
+    font-size: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+main {
+    height: 500px;
+    text-align: center;
+    /* set the texts into the center of page. */
+
+    /* padding-top: 15px; */
+
+    /* 增加文本与上方距离 */
+    /* margin-top: 80px; */
+    /* 格子拉开距离 （上下可同时使用）*/
+    padding-left: 240px;
+    padding-right: 240px;
+    /* 在左右两方各自平均空白 */
+}
+
+footer {
+    background-color:grey;
+    height: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* text into the center horrizon. */
+}
+
+footer a {
+    font-size: 40px;
+    color: blue;
+}
+
+h1 {
+    color: black;
+    font-size: 84px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 30px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -30px;
+}
+
+a {
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-decoration: none; (no underline)*/
+}
