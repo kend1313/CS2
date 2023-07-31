@@ -1,6 +1,6 @@
 body {
     background-color: grey;
-    background-image: url(/static/images/awps.jpg);
+    background-image: url(awps.jpg);
     /* 页面背景图片为 */
     background-size: cover;
     /* to move with picture */
