@@ -1,7 +1,5 @@
 body {
-    background-color: grey;
     background-image: url(awps.jpg);
-    /* background photo */
     background-size: cover;
     /* to move with picture */
     background-repeat: no-repeat;
@@ -91,12 +89,6 @@ a {
     font-family:Arial, Helvetica, sans-serif
     /* text-decoration: none; (no underline)*/
 }
-
-/* .a2 {
-    color: black;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-} */
 
 /**********/
 /**      **/
