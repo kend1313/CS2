@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/awps.jpg);
+    background-image: url(/static/images/awps.jpg);
     background-size: cover;
     /* to move with picture */
     background-repeat: no-repeat;

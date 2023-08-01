@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Welcome to my website</title>
-        <link rel = "stylesheet" href = "/css/right.css">
+        <link rel = "stylesheet" href = "/static/css/right.css">
     <body>
         <div class="container">
 
@@ -10,10 +10,9 @@
             {% include 'header.html'%}
             </header>
 
-            <nav>
+        
             {% include 'nav.html'%}
-            </nav>
-
+         
             <main>
             <h1>{%block content%}{% endblock %}</h1>
             </main>
