@@ -32,7 +32,7 @@ def case(id):
   
   cur.execute('SELECT * FROM Skins WHERE id=?',(id,))
   pizza = cur.fetchone()
-# baseSS
+# bases
   cur.execute('SELECT * FROM Base WHERE id=?',(id,))
   base = cur.fetchone()
 # cur.execute("SELECT toppingname FROM Topping WHERE id = (SELECT tid FROM Pizzatopping WHERE pid= ?)",(id,))
