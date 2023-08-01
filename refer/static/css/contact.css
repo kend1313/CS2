@@ -1,4 +1,4 @@
-body {
+/* body {
     background-image: url(2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,48 +18,48 @@ header {
 
 nav {
     /* background-color: #2f3035; */
-    background-color: rgba(0,0,0,0.338);
+    /* background-color: rgba(0,0,0,0.338);
     height: 40px;
     text-align: center;
     text-decoration: none;
     padding-top: 14px;
-    padding-bottom: 14px;
-}
+    padding-bottom: 14px; */
+/* } */
 
-nav  a {
+/* nav  a {
     /* this is the subtitles */
-    text-decoration: none;
+    /* text-decoration: none;
     font-size: 32px;
     padding-left: 10px;
     padding-right: 10px;
-    color: white;
-}
+    color: white; */
+/* }  */
 
-main {
+/* main {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-s;
     height: 500px;
     text-align: center;
     padding-left: 240px;
     padding-right: 240px;
-}
+} */
 
-h1 {
+/* h1 {
     color: yellow;
     font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
+} */
+/* 
 p {
     padding-top: 90px;
     font-size: 30px;
     color: yellow;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -30px;
-}
+} */
 
-a {
+/* a {
     color: yellow;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */ 
