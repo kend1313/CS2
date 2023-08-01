@@ -1,5 +1,5 @@
 body {
-    background-image: url(/templates/images/awps.jpg);
+    background-image: url(/images/awps.jpg);
     background-size: cover;
     /* to move with picture */
     background-repeat: no-repeat;
@@ -74,13 +74,6 @@ h1 {
     color: black;
     font-size: 84px;
     font-family:Arial, Helvetica, sans-serif;
-}
-
-p {
-    font-size: 30px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -30px;
 }
 
 a {
