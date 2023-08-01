@@ -2,20 +2,27 @@
 <html>
     <head>
         <title>Welcome to my website</title>
-    <link rel = "stylesheet" href = "/templates/css/right.css">
+        <link rel = "stylesheet" href = "/templates/css/right.css">
     <body>
-        <header>
+        <div class="container">
+
+            <header>
             {% include 'header.html'%}
-        </header>
-        <nav>
+            </header>
+
+            <nav>
             {% include 'nav.html'%}
-        </nav>
-        <main>
+            </nav>
+
+            <main>
             <h1>{%block content%}{% endblock %}</h1>
-        </main>
-        <footer>
+            </main>
+
+            <footer>
             {% include 'footer.html'%}
-        </footer>
+            </footer>
+            
+        </div>
     </body>
     </head>
 </html>
