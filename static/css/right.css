@@ -25,7 +25,6 @@ nav {
     height:40px ;
     /* background-color: #2f3035; */
     background-color: rgba(0,0,0,0.338);
-    height: 40px;
     text-align: center;
     /* to keep links in center */
     text-decoration: none;
@@ -42,7 +41,7 @@ nav  a {
 }
 
 main {
-    height: 500px;
+    height: 400px;
     text-align: center;
     /* set the texts into the center of page. */
 
@@ -72,6 +71,7 @@ footer a {
 
 h2 {
     color: black;
+    padding-top: 40px;
     font-size: 84px;
     font-family:Arial, Helvetica, sans-serif;
 }
