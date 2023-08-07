@@ -83,7 +83,7 @@ a {
     /* text-decoration: none; (no underline)*/
 }
 
-body.contact {
+body.container.about {
     background-image: url(/static/images/2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
