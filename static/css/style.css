@@ -76,7 +76,7 @@ body {
 
 body {
     background-color: grey;
-    background-image: url(/static/images/3.jpg);
+    /* background-image: url(/static/images/3.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -92,7 +92,7 @@ body {
 /*                                                                                                       About page */
 
 body {
-    background-image: url(/static/images/2.jpg);
+    /* background-image: url(/static/images/2.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
