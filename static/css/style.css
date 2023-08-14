@@ -1,63 +1,13 @@
-body {
-    background-image: url(/static/images/awps.jpg);
-    background-size: cover;
-    /* to move with picture */
-    background-repeat: no-repeat;
-    /* to stop background photo repeating. */
-    background-position: center;
-}
-
 .container { 
     margin-left:auto;
     margin-right: auto;
     width: 1024px;
-}
-/* To restrict the areas of the nav bar and footer bar. */
-
-header {
-    /* background-color: blue;
-    可切换是否要有格子highlight */
-    height: 118px;
-    text-align: center;
+    /* To restrict the areas of the nav bar and footer bar. */
 }
 
-nav {
-    height:40px ;
-    /* background-color: #2f3035; */
-    background-color: rgba(0,0,0,0.338);
-    text-align: center;
-    /* to keep links in center */
-    text-decoration: none;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-
-/* .nav-home{
-    color:white;
-    font-weight: bold;
-}  */
-
-nav  a {
-    text-decoration: none;
-    font-size: 32px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-}
-
-main {
-    height: 450px;
-    text-align: center;
-    /* set the texts into the center of page. */
-
-    /* padding-top: 15px; */
-
-    /* 增加文本与上方距离 */
-    /* margin-top: 80px; */
-    /* 格子拉开距离 （上下可同时使用）*/
-    padding-left: 240px;
-    padding-right: 240px;
-    /* 在左右两方各自平均空白 */
+footer a {
+    font-size: 40px;
+    color: blue;
 }
 
 footer {
@@ -66,121 +16,7 @@ footer {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    /* text into the center horrizon. */
 }
-
-footer a {
-    font-size: 40px;
-    color: blue;
-}
-
-h2 {
-    color: black;
-    padding-top: 40px;
-    font-size: 84px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-a {
-    color: yellow;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/*                                                                  Home page */
-
-
-
-
-
-body {
-    background-image: url(/static/images/2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-header {
-    height: 118px;
-    text-align: center;
-}
-
-nav {
-    /* background-color: #2f3035; */
-    background-color: rgba(0,0,0,0.338);
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-
-nav  a {
-    /* this is the subtitles */
-    text-decoration: none;
-    font-size: 32px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-}
-
-main {
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-s;
-    height: 500px;
-    text-align: center;
-    padding-left: 240px;
-    padding-right: 240px;
-}
-
-.contact-h1 {
-    color: green;
-    font-size: 44px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h2 {
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.contact-p{
-    font-weight: bold;
-    /* font to be bold */
-    padding-top: 70px;
-    font-size: 35px;
-    color: green;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -30px;
-}
-
-.contact-a {
-    color: green;
-    font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif
-    /* text-decoration: none; (no underline)*/
-}
-/* 影响nav bar */
-
-/*                                                                  Contact page */
-
-
-
-
-
-
-
-
-
-
-body {
-    background-color: grey;
-    background-image: url(/static/images/3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 
 header {
     height: 118px;
@@ -213,18 +49,38 @@ main {
     padding-right: 240px;
 }
 
-footer {
-    background-color:grey;
-    height: 50px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
 h1{
     color: black;
     font-size: 84px;
     font-family: Arial, Helvetica, sans-serif;
+}
+/* 删除会导致字体上升 */
+/*                                                                                                      For All pages */
+
+body {
+    background-image: url(/static/images/awps.jpg);
+    background-size: cover;
+    /* to move with picture */
+    background-repeat: no-repeat;
+    /* to stop background photo repeating. */
+    background-position: center;
+}
+
+.home-h2 {
+    color: red;
+    padding-top: 40px;
+    font-size: 84px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*                                                                                                      Home page */
+
+body {
+    background-color: grey;
+    background-image: url(/static/images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about-p {
@@ -235,10 +91,39 @@ h1{
     margin-top: -30px;
 }
 
-a {
-    color: red;
-    font-size: 35px;
-    font-family:Arial, Helvetica, sans-serif;
+
+
+/*                                                                                                       About page */
+
+body {
+    background-image: url(/static/images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-/*                                                                                  About page */
+.contact-h1 {
+    color: blue;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-p{
+    font-weight: bold;
+    /* font to be bold */
+    padding-top: 70px;
+    font-size: 35px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -30px;
+}
+
+.contact-a {
+    color: blue;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif
+    /* text-decoration: none; (no underline)*/
+}
+/* 影响nav bar */
+
+/*                                                                                                       Contact page */
