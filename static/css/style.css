@@ -5,19 +5,6 @@
     /* To restrict the areas of the nav bar and footer bar. */
 }
 
-footer a {
-    font-size: 40px;
-    color: blue;
-}
-
-footer {
-    background-color:grey;
-    height: 50px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
 header {
     height: 118px;
     text-align: center;
@@ -27,7 +14,6 @@ nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height:40px ;
     background-color: rgba(0,0,0,0.338);
-    height: 40px;
     text-align: center;
     text-decoration: none;
     padding-top: 14px;
@@ -43,10 +29,23 @@ nav  a {
 }
 
 main {
-    height: 500px;
+    height: 450px;
     text-align: center;
     padding-left: 240px;
     padding-right: 240px;
+}
+
+footer a {
+    font-size: 40px;
+    color: blue;
+}
+
+footer {
+    background-color:grey;
+    height: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h1{
@@ -88,10 +87,7 @@ body {
     font-size: 30px;
     color: yellow;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -30px;
 }
-
-
 
 /*                                                                                                       About page */
 
@@ -115,7 +111,6 @@ body {
     font-size: 35px;
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -30px;
 }
 
 .contact-a {
