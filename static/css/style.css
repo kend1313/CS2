@@ -32,6 +32,11 @@ nav {
     padding-bottom: 14px;
 }
 
+.nav-home{
+    color:white;
+    font-weight: bold;
+}
+
 nav  a {
     text-decoration: none;
     font-size: 32px;
@@ -83,25 +88,19 @@ a {
     /* text-decoration: none; (no underline)*/
 }
 
-body.container.about {
+body {
     background-image: url(/static/images/2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.container.contact { 
-    margin-left:auto;
-    margin-right: auto;
-    width: 1024px;
-}
-
-header.contact {
+header {
     height: 118px;
     text-align: center;
 }
 
-nav.contact {
+nav {
     /* background-color: #2f3035; */
     background-color: rgba(0,0,0,0.338);
     height: 40px;
@@ -111,7 +110,7 @@ nav.contact {
     padding-bottom: 14px;
 }
 
-nav  a.contact {
+nav  a {
     /* this is the subtitles */
     text-decoration: none;
     font-size: 32px;
@@ -120,7 +119,7 @@ nav  a.contact {
     color: white;
 }
 
-main.contact {
+main {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-s;
     height: 500px;
@@ -129,18 +128,18 @@ main.contact {
     padding-right: 240px;
 }
 
-h1.contact {
+h1 {
     color: yellow;
     font-size: 44px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2.contact {
+h2 {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p.contact {
+p {
     padding-top: 90px;
     font-size: 30px;
     color: yellow;
@@ -148,13 +147,13 @@ p.contact {
     margin-top: -30px;
 }
 
-a.contact {
+a {
     color: yellow;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body.about {
+body {
     background-color: grey;
     background-image: url(/static/images/3.jpg);
     background-size: cover;
@@ -162,18 +161,13 @@ body.about {
     background-position: center;
 }
 
-.container.about { 
-    margin-left:auto;
-    margin-right: auto;
-    width: 1024px;
-}
 
-header.about {
+header {
     height: 118px;
     text-align: center;
 }
 
-nav.about {
+nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height:40px ;
     background-color: rgba(0,0,0,0.338);
@@ -184,7 +178,7 @@ nav.about {
     padding-bottom: 14px;
 }
 
-nav  a.about {
+nav  a {
     text-decoration: none;
     font-size: 32px;
     padding-left: 10px;
@@ -192,7 +186,7 @@ nav  a.about {
     color: white;
 }
 
-main.about {
+main {
     height: 500px;
     text-align: center;
     padding-left: 240px;
