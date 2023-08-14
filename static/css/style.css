@@ -13,10 +13,11 @@ body {
     margin-right: auto;
     width: 1024px;
 }
+/* To restrict the areas of the nav bar and footer bar. */
 
 header {
-    /* background-color: blue; */
-    /* 可切换是否要有格子highlight */
+    /* background-color: blue;
+    可切换是否要有格子highlight */
     height: 118px;
     text-align: center;
 }
@@ -32,10 +33,10 @@ nav {
     padding-bottom: 14px;
 }
 
-.nav-home{
+/* .nav-home{
     color:white;
     font-weight: bold;
-}
+}  */
 
 nav  a {
     text-decoration: none;
