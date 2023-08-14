@@ -6,7 +6,6 @@ body {
     /* to stop background photo repeating. */
     background-position: center;
 }
-/* changes page background color */
 
 .container { 
     margin-left:auto;
@@ -83,11 +82,16 @@ h2 {
 }
 
 a {
-    color: black;
+    color: yellow;
     font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif
-    /* text-decoration: none; (no underline)*/
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/*                                                                  Home page */
+
+
+
+
 
 body {
     background-image: url(/static/images/2.jpg);
@@ -129,8 +133,8 @@ main {
     padding-right: 240px;
 }
 
-h1 {
-    color: yellow;
+.contact-h1 {
+    color: green;
     font-size: 44px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -140,19 +144,34 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    padding-top: 90px;
-    font-size: 30px;
-    color: yellow;
+.contact-p{
+    font-weight: bold;
+    /* font to be bold */
+    padding-top: 70px;
+    font-size: 35px;
+    color: green;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -30px;
 }
 
-a {
-    color: yellow;
+.contact-a {
+    color: green;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif
+    /* text-decoration: none; (no underline)*/
 }
+/* 影响nav bar */
+
+/*                                                                  Contact page */
+
+
+
+
+
+
+
+
+
 
 body {
     background-color: grey;
@@ -194,7 +213,7 @@ main {
     padding-right: 240px;
 }
 
-footer.about {
+footer {
     background-color:grey;
     height: 50px;
     font-size: 40px;
@@ -202,24 +221,24 @@ footer.about {
     text-align: center;
 }
 
-h1.about {
+h1{
     color: black;
     font-size: 84px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p.about {
-    font-weight: bold;
-    /* font to be bold */
-    padding-top: 70px;
-    font-size: 35px;
-    color: red;
+.about-p {
+    padding-top: 90px;
+    font-size: 30px;
+    color: yellow;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -30px;
 }
 
-a.about {
+a {
     color: red;
     font-size: 35px;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+/*                                                                                  About page */
