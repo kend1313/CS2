@@ -15,16 +15,6 @@ def about():
 def contact():
   return render_template("home.html")
 
-@app.route ("/All_skins")
-
-def All_skins():
-  conn=sqlite3.connect("CS2.db")
-  cur=conn.cursor()
-  cur.execute('SELECT * FROM skins')
-  results=cur.fetchall()
-  conn.close
-  return render_template("allskins.html",results = results)
-
 @app.route('/skins/<int:id>')
 def skin(id):
   conn = sqlite3.connect('CS2.db')

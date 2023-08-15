@@ -15,33 +15,25 @@ def about():
 def contact():
   return render_template("contact.html")
 
-@app.route ("/All_skins")
-
-def All_skins():
+@app.route ("/all_skins")
+def all_skins():
   conn=sqlite3.connect("CS2.db")
   cur=conn.cursor()
-  cur.execute('SELECT * FROM skins')
+  cur.execute('SELECT * FROM Skin')
   results=cur.fetchall()
-  conn.close
+  conn.close()
   return render_template("allskins.html",results = results)
 
-@app.route('/skins/<int:id>')
+@app.route('/skin/<int:id>')
 def skin(id):
   conn = sqlite3.connect('CS2.db')
   cur = conn.cursor()
-#skin
-def case(id):
-  conn= sqlite3.connect('CS2.db')
-  cur = conn.cursor()
-  
-  cur.execute('SELECT * FROM Skins WHERE id=?',(id,))
-  pizza = cur.fetchone()
 # bases
-  cur.execute('SELECT * FROM Base WHERE id=?',(id,))
-  base = cur.fetchone()
+  cur.execute('SELECT * FROM CaseBelong WHERE id=?',(id,))
+  case = cur.fetchone()
 # cur.execute("SELECT toppingname FROM Topping WHERE id = (SELECT tid FROM Pizzatopping WHERE pid= ?)",(id,))
 #topping = cur.fetchall()
-  return render_template('allskins.html',All_skins, base=base)
+  return render_template('skin.html', case=case)
 
 if __name__ == "__main__":
     app.run(debug = True)
