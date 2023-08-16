@@ -53,8 +53,6 @@ h1{
     font-size: 84px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* 删除会导致字体上升 */
-/*                                                                                                      For All pages */
 
 body {
     background-image: url(/static/images/awps.jpg);
@@ -65,6 +63,9 @@ body {
     background-position: center;
 }
 
+/* 删除会导致字体上升 */
+/*                                                                                                      For All pages */
+
 .home-h2 {
     color: red;
     padding-top: 40px;
@@ -74,32 +75,17 @@ body {
 
 /*                                                                                                      Home page */
 
-body {
-    background-color: grey;
-    /* background-image: url(/static/images/3.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .about-p {
     padding-top: 90px;
     font-size: 30px;
-    color: yellow;
+    color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /*                                                                                                       About page */
 
-body {
-    /* background-image: url(/static/images/2.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .contact-h1 {
-    color: blue;
+    color: red;
     font-size: 44px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -109,12 +95,12 @@ body {
     /* font to be bold */
     padding-top: 70px;
     font-size: 35px;
-    color: blue;
+    color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-a {
-    color: blue;
+    color: red;
     font-size: 30px;
     font-family:Arial, Helvetica, sans-serif
     /* text-decoration: none; (no underline)*/
