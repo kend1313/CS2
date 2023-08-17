@@ -30,10 +30,10 @@ def skin(id):
   cur = conn.cursor()
 # bases
   cur.execute('SELECT * FROM CaseBelong WHERE id=?',(id,))
-  case = cur.fetchone()
+  description = cur.fetchone()
 # cur.execute("SELECT toppingname FROM Topping WHERE id = (SELECT tid FROM Pizzatopping WHERE pid= ?)",(id,))
 #topping = cur.fetchall()
-  return render_template('skin.html', case=case)
+  return render_template('skin.html', description=description)
 
 if __name__ == "__main__":
     app.run(debug = True)
