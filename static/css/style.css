@@ -108,3 +108,9 @@ body {
 /* 影响nav bar */
 
 /*                                                                                                       Contact page */
+
+.all_skins {
+    font-size: 30px;
+    text-decoration: none;
+    color: yellow;
+    display: grid;
