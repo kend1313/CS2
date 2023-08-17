@@ -28,11 +28,10 @@ def all_skins():
 def skin(id):
   conn = sqlite3.connect('CS2.db')
   cur = conn.cursor()
-# bases
+
   cur.execute('SELECT * FROM CaseBelong WHERE id=?',(id,))
   description = cur.fetchone()
-# cur.execute("SELECT toppingname FROM Topping WHERE id = (SELECT tid FROM Pizzatopping WHERE pid= ?)",(id,))
-#topping = cur.fetchall()
+
   return render_template('skin.html', description=description)
 
 if __name__ == "__main__":
