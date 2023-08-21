@@ -5,13 +5,12 @@ h2{
     margin-left:auto;
     margin-right: auto;
     width: 1024px;
-    /* To restrict the areas of the nav bar and footer bar. */
 }
+    /* To restrict the areas of the nav bar and footer bar. */
 
 header {
     height: 118px;
     text-align: center;
-    background-color: brown;
 }
 
 nav {
@@ -22,7 +21,6 @@ nav {
     text-decoration: none;
     padding-top: 14px;
     padding-bottom: 14px;
-    background-color:bisque
 }
 
 nav  a {
@@ -34,11 +32,10 @@ nav  a {
 }
 
 main {
-    height: 450px;
+    height: 500px;
     text-align: center;
     padding-left: 240px;
     padding-right: 240px;
-    background-color: aqua;
     margin-top: 30px;
 }
 
@@ -69,7 +66,6 @@ body {
     background-repeat: no-repeat;
     /* to stop background photo repeating. */
     background-position: center;
-    margin: 0px;
 }
 
 /* 删除会导致字体上升 */
@@ -89,6 +85,7 @@ body {
     font-size: 30px;
     color: red;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 /*                                                                                                       About page */
@@ -98,6 +95,8 @@ body {
     font-size: 44px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 30px;
+    padding-top: 65px;
+
 }
 
 .contact-p{
