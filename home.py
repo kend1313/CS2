@@ -29,7 +29,7 @@ def skin(id):
   conn = sqlite3.connect('CS2.db')
   cur = conn.cursor()
 
-  cur.execute('SELECT * FROM CaseBelong WHERE id=?',(id,))
+  cur.execute('SELECT * FROM skin WHERE id=?',(id,))
   description = cur.fetchone()
 
   return render_template('skin.html', description=description)
