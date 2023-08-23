@@ -125,3 +125,9 @@ body {
     display: grid;
     margin: 0px;
 }
+
+.skin-img{
+    height: 200px;
+    margin-right: -200px;
+    
+}
