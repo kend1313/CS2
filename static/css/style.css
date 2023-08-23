@@ -130,6 +130,7 @@ body {
     overflow: hidden;
     margin: 0; /* image in the middle of the page */
 }
+/* styles for the img in skin-img so that image will not get out of the container*/
 .skin-img img {
     max-width: 100%; /* make sure the image is in the container */
     height: auto; /* Maintain A/R */
