@@ -128,6 +128,5 @@ body {
 
 .skin-img{
     height: 200px;
-    margin-right: -200px;
-    
+    max-width: fit-content;
 }
