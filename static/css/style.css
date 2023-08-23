@@ -124,10 +124,14 @@ body {
     color: yellow;
     display: grid;
     margin: 0px;
+.skin-img {
+    max-width: 100%; 
+    max-height: 100%;/* make sure the image is in the container */
+    overflow: hidden;
+    margin: 0; /* image in the middle of the page */
 }
-
-.skin-img{
-    height: 200px;
-    margin-right: -200px;
-    
+.skin-img img {
+    max-width: 100%; /* make sure the image is in the container */
+    height: auto; /* Maintain A/R */
+    margin-right: 0px /*change the position of the image*/
 }
