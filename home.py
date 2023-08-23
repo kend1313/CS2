@@ -35,7 +35,9 @@ def skin(id):
     cur = conn.cursor()
     cur.execute('SELECT * FROM skin WHERE id=?', (id,))
     description = cur.fetchone()
-    return render_template('skin.html', description=description)
+    cur.execute('SELECT * FROM CaseBelong WHERE id=?',(id,))
+    CaseBelong = cur.fetchone()
+    return render_template('skin.html', description=description, CaseBelong=CaseBelong)
 
 
 if __name__ == "__main__":

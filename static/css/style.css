@@ -142,3 +142,9 @@ body {
     height: 200px;
     max-width: fit-content;
 }
+
+.CaseBelong {
+    font-size: 30px;
+    color: red;
+
+}
