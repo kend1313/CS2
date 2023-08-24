@@ -40,7 +40,7 @@ def skin(id):
     cur.execute('SELECT * FROM ItemQuality WHERE id=?',(id,))
     ItemQuality = cur.fetchone()
     return render_template('skin.html', description=description,
-     CaseBelong=CaseBelong, ItemQuality=ItemQuality)
+    CaseBelong=CaseBelong, ItemQuality=ItemQuality)
 
 
 if __name__ == "__main__":
