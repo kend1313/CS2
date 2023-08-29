@@ -2,7 +2,11 @@
 {% block content %}
 
 <h1 class="CaseBelong">
-    {{CaseBelong}}
+    {{CaseBelong[0]}}. 
+    <!-- the first line dat prints the number/id -->
+    <br> {{CaseBelong[1]}} 
+    <!-- a page break, then print the second thing vertically -->
+    <br> {{CaseBelong[2]}}
 </h1>
 
 <div class="skin-img">

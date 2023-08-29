@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return render_template("home.html")
-
+# display the home page, connect with home.html
 
 @app.route('/about')
 def about():
@@ -23,6 +23,7 @@ def contact():
 def all_skins():
     conn = sqlite3.connect("CS2.db")
     cur = conn.cursor()
+    
     cur.execute('SELECT * FROM skin')
     results = cur.fetchall()
     conn.close()
