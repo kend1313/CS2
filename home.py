@@ -12,16 +12,19 @@ def home():
 @app.route('/about')
 def about():
     return render_template("about.html")
+# display the about page, connect with home.html
 
 
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
+# display the contact page, connect with home.html
 
 
 @app.route("/all_skins")
 def all_skins():
     conn = sqlite3.connect("CS2.db")
+# connect with the database
     cur = conn.cursor()
     
     cur.execute('SELECT * FROM skin')
