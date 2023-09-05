@@ -26,12 +26,14 @@ def all_skins():
     conn = sqlite3.connect("CS2.db")
 # connect with the database
     cur = conn.cursor()
-    
+# opening the warehouse
     cur.execute('SELECT * FROM skin')
+# Select the id from database
     results = cur.fetchall()
+# print result(s)
     conn.close()
     return render_template("allskins.html", results=results)
-
+# display on allskins.html page with name results
 
 @app.route('/skin/<int:id>')
 def skin(id):
@@ -39,13 +41,15 @@ def skin(id):
     cur = conn.cursor()
     cur.execute('SELECT * FROM skin WHERE id=?', (id,))
     description = cur.fetchone()
+# print the single reult for skin
     cur.execute('SELECT * FROM CaseBelong WHERE id=?',(id,))
     CaseBelong = cur.fetchone()
+# print the single result for CaseBelong
     cur.execute('SELECT * FROM ItemQuality WHERE id=?',(id,))
     ItemQuality = cur.fetchone()
+# print the single result for ItemQuality
     return render_template('skin.html', description=description,
     CaseBelong=CaseBelong, ItemQuality=ItemQuality)
-
 
 if __name__ == "__main__":
     app.run(debug=True)
