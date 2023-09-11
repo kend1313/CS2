@@ -24,13 +24,10 @@ def contact():
 @app.route("/all_skins")
 def all_skins():
     conn = sqlite3.connect("CS2.db")
-# connect with the database
     cur = conn.cursor()
 # opening the warehouse
     cur.execute('SELECT * FROM skin')
-# Select the id from database
     results = cur.fetchall()
-# print result(s)
     conn.close()
     return render_template("allskins.html", results=results)
 # display on allskins.html page with name results
