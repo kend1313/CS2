@@ -69,10 +69,12 @@ body {
 /*                                                                                                         For All pages */
 
 .home-h2 {
-    color: red;
+    color: white;
     padding-top: 40px;
     font-size: 84px;
     font-family:Arial, Helvetica, sans-serif;
+    text-shadow: blue 12px -5px 20px,
+    teal -15px 2px 18px;
 }
 
 h2{
@@ -83,19 +85,24 @@ h2{
 .about-p {
     padding-top: 90px;
     font-size: 30px;
-    color: red;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    text-shadow: blue 12px -5px 20px,
+    teal -15px 2px 18px;
+    /* font shadow */
 }
 
 /*                                                                                                         About page */
 
 .contact-h1 {
-    color: red;
+    color: white;
     font-size: 44px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 30px;
     padding-top: 65px;
+    text-shadow: blue 12px -5px 20px,
+    teal -15px 2px 18px;
 
 }
 
@@ -106,6 +113,8 @@ h2{
     font-size: 35px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: blue 12px -5px 20px,
+    teal -15px 2px 18px;
 }
 /*                                                                                                         Contact page */
 
@@ -113,9 +122,12 @@ h2{
     font-size: 30px;
     text-decoration: none;
     /* no under-line */
-    color: red;
+    color: white;
     display: grid;
     /* to be displayed by listing not horizontally consecutive */
+    font-weight: bold;
+    text-shadow: blue 12px -5px 20px,
+    teal -15px 2px 18px;
 }
 /*                                                                                                        All skins page */
 
@@ -141,6 +153,8 @@ h2{
 .CaseBelong {
     font-size: 30px;
     color: white;
+    text-shadow: blue 12px -5px 20px,
+    teal -15px 2px 18px;
 }
 /* info from database expressed */
 /*                                                                                                         Skin ID Pages */
