@@ -66,6 +66,11 @@ body {
     /* to stop background photo repeating. */
     background-position: center;
 }
+
+.all-a {
+    color: white;
+    font-weight: bold;
+}
 /*                                                                                                         For All pages */
 
 .home-h2 {
